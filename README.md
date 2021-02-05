@@ -3,6 +3,13 @@ Description of the repository:
 Test the utility of the TSEB model in Wellsville. Corn, alfalfa, marijuana, and bare soil (landcover type) are the main objectives for this field. This repository is used to save all the code we used for this project. Details are shown below.
 
 
+## 1. Model for LAI data extraction from the LAI-2200 analyzer - "LAI_Analyzer_V2.ipynb"
+Rui Gao (rui.gao@aggiemail.usu.edu)<br>
+20210106<br>
+Main purpose for this script is extracting the measurement record number (ID), the ground true LAI (LAI), the corresponding measurement time including date and time (Time), the latitude of the ground measurement (Lat), and the longitude of the ground measurement (Lon). This code written based on my experience when review the fomat and the patter of the table (txt file) gained from the LAI-2200 analyzer. Current test are all correct.<br>
+A .xlsx format file is required for this code, and this is the only manual work that we need to do. A demo .xlsx file, "LAI_Well_0720B.xlsx" is attached in this repository. The original .txt file, "WEL0720B.TXT", is also attached in this repository. By using the software called "FV2200", I copy and past the data into the .xlsx file. 4 sheets are required as the same like I showed in the .xlsx sheet, otherwise, the corresponding part of this code is needed to modify. For the .xlsx file, the first 3 sheets come from the .txt file. Direct copy and past is sufficient. The 4th sheet called "Current_new" is the main part of the 2nd sheet called "Current". Be careful about the format should be enough to run this code successfully.
+
+
 ## 2. Model for spectral data extraction for each grid where there are ground measured - "Data_Extraction.ipynb"
 Rui Gao (rui.gao@aggiemail.usu.edu)<br>
 20210205<br>
