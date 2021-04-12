@@ -27,7 +27,7 @@ Rui Gao (rui.gao@aggiemail.usu.edu)<br>
 Raw image includes 6 bands, ordered by B, G, R, RE, NIR, and Tr. DEM data is also provided, but for this part, it is not used.
 This script cannot automatically finish the whole process. Such as equations for LAI calculation for different objectives need manual modifications. And the pre-process are needed before running this script.
 ### Important notice:
-This python script can be recognized as a calculator which is not that stable. Users who are using this repository need to run block by block in this python script. ArcMap is recommend to review the result from each block, and tables need to gain your more attention.
+This python script can be recognized as a calculator which is not that stable. Users who are using this repository need to run section by section in this python script. ArcMap is recommend to review the result from each block, and tables need to gain your more attention.
 
 
 
