@@ -21,7 +21,7 @@ Main goal for this script is that this script could generate "sufficient" statis
 Raw image is needed, and the 6 (default) bands are needed to manually modify. Another needed input is the grids where do we took the ground measurements. The output is a ".csv" format table. 
 
 
-## 4. Model for images generation - "Wellsville_Image_TSEB.ipynb"
+## 4. Model for images generation - "Wellsville_Image_TSEB_V3.ipynb"
 Rui Gao (rui.gao@aggiemail.usu.edu)<br>
 20210205<br>
 Raw image includes 6 bands, ordered by B, G, R, RE, NIR, and Tr. DEM data is also provided, but for this part, it is not used.
