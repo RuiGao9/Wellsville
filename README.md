@@ -1,4 +1,9 @@
 # Wellsville
+## Contact
+[Rui Gao](https://www.researchgate.net/profile/Rui-Gao-55): Rui.Gao@usu.edu | Rui.Gao@aggiemail.usu.edu<br>
+Latest update: 2021-07-12
+
+## Brief introduction of this repository:
 Testing the utility of the TSEB model in Wellsville. Corn, alfalfa, mar***, and bare soil (landcover type) are the main objectives for this field. This repository is used to save all the code (3 main pieces of scripts) we used for this project. Details are shown below.
 
 ## 1. "LAI_Analyzer_V2.ipynb"
